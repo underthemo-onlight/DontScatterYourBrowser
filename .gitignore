@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Test and temporary files
+ai-test/
+test.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

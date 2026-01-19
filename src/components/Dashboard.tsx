@@ -7,9 +7,12 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 via-blue-50 to-purple-50 p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
-        <header className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Personal Dashboard</h1>
-          <p className="text-gray-600">Your productivity hub</p>
+        <header className="mb-8 flex items-center gap-4">
+          <img src="/logo.svg" alt="Logo" className="w-16 h-16" />
+          <div>
+            <h1 className="text-4xl font-bold text-gray-800 mb-2">Personal Dashboard</h1>
+            <p className="text-gray-600">Your productivity hub</p>
+          </div>
         </header>
 
         {/* Bento Grid Layout */}
